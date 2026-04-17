@@ -1,27 +1,26 @@
 module github.com/usememos/memogram
 
-go 1.24
-
-toolchain go1.24.1
+go 1.25.7
 
 require (
 	github.com/caarlos0/env v3.5.0+incompatible
-	github.com/usememos/memos v0.24.4
-	google.golang.org/grpc v1.72.2
+	github.com/usememos/memos v0.26.2
+	google.golang.org/grpc v1.78.0 // indirect
 )
 
 require (
-	github.com/go-telegram/bot v1.15.0
+	github.com/go-telegram/bot v1.20.0
 	github.com/joho/godotenv v1.5.1
 )
 
+require connectrpc.com/connect v1.19.1
+
 require (
-	github.com/grpc-ecosystem/grpc-gateway/v2 v2.26.3 // indirect
-	github.com/pkg/errors v0.9.1
-	golang.org/x/net v0.40.0 // indirect
-	golang.org/x/sys v0.33.0 // indirect
-	golang.org/x/text v0.25.0 // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20250528174236-200df99c418a // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20250528174236-200df99c418a // indirect
-	google.golang.org/protobuf v1.36.6
+	github.com/grpc-ecosystem/grpc-gateway/v2 v2.27.2 // indirect
+	golang.org/x/net v0.49.0 // indirect
+	golang.org/x/sys v0.40.0 // indirect
+	golang.org/x/text v0.33.0 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20251029180050-ab9386a59fda // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20251029180050-ab9386a59fda // indirect
+	google.golang.org/protobuf v1.36.11
 )
